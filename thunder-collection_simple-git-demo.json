@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "simple-git-demo",
+    "collectionId": "21004191-8953-4f04-a7de-017b27b469d5",
+    "dateExported": "2024-09-02T15:42:05.256Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7affdc60-acdd-4d6e-8e86-5a89c097af85",
+            "colId": "21004191-8953-4f04-a7de-017b27b469d5",
+            "containerId": "",
+            "name": "clone",
+            "url": "{{url}}/git/clone",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-02T10:07:04.099Z",
+            "modified": "2024-09-02T15:41:56.152Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cloneUrl\": \"\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bcd95d30-06e7-429b-9ffa-aaa7b2f2b84d",
+            "colId": "21004191-8953-4f04-a7de-017b27b469d5",
+            "containerId": "",
+            "name": "config",
+            "url": "{{url}}/git/config/4e6fb509-0cd6-4d7b-b691-f0e08ccf1882",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-02T10:07:15.041Z",
+            "modified": "2024-09-02T10:07:15.041Z",
+            "headers": []
+        },
+        {
+            "_id": "80f7577f-58a0-4407-b117-e4ebb9706c84",
+            "colId": "21004191-8953-4f04-a7de-017b27b469d5",
+            "containerId": "",
+            "name": "status",
+            "url": "{{url}}/git/status/4e6fb509-0cd6-4d7b-b691-f0e08ccf1882",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-02T10:07:21.511Z",
+            "modified": "2024-09-02T10:07:21.511Z",
+            "headers": []
+        },
+        {
+            "_id": "3ff43f86-0443-4d14-8df7-bdce1424874e",
+            "colId": "21004191-8953-4f04-a7de-017b27b469d5",
+            "containerId": "",
+            "name": "branches",
+            "url": "{{url}}/git/branches/4e6fb509-0cd6-4d7b-b691-f0e08ccf1882",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-02T10:07:28.340Z",
+            "modified": "2024-09-02T10:07:28.340Z",
+            "headers": []
+        }
+    ],
+    "ref": "aFneEBZKdl0R96tn_1amtj4RToDCTtGRJ8UOWOU307EBTbW75QnuZO7vWzDW810m2beCJvBq0W6BE3iVx4qiSw"
+}
