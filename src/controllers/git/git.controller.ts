@@ -18,7 +18,7 @@ export default class GitController {
 
     const response = await simpleGit().clone(cloneUrl, localPath);
 
-    logger.info('clone response ::', response);
+    logger.info('clone response ::%o', response);
 
     return res.status(201).json({
       status: 'SUCCESS',
@@ -40,10 +40,10 @@ export default class GitController {
     });
 
     const config = await git.listConfig();
-    logger.info('config ::', config.values);
+    logger.info('config ::%o', config.values);
 
     const url = await git.getConfig('remote.origin.url');
-    logger.info('git url ::', url.value);
+    logger.info('git url ::%o', url.value);
 
     return res.status(201).json({
       status: 'SUCCESS',
@@ -66,7 +66,7 @@ export default class GitController {
 
     const status = await git.status();
 
-    logger.info('git status ::', status);
+    logger.info('git status ::%o', status);
 
     return res.status(201).json({
       status: 'SUCCESS',
@@ -89,7 +89,7 @@ export default class GitController {
 
     const branches = await git.branch();
 
-    logger.info('branches ::', branches);
+    logger.info('branches ::%o', branches);
 
     return res.status(201).json({
       status: 'SUCCESS',
